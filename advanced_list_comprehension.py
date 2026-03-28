@@ -2,7 +2,7 @@
 from pprint import pprint
 
 # creating a 'tic-tac-toe' board using list comprehension
-board = [[num for num in range(1,4)] for _  in range(3)]
+board = [[num for num in range(1,4)] for _ in range(3)]
 print(board)
 
 # with conditionl logic

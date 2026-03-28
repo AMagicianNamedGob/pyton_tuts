@@ -11,7 +11,6 @@ print(cloned) # {'a': 1, 'b': 2, 'c': 3}
 new_dict = dict.fromkeys(['a', 'b', 'c'], 0)
 print(new_dict) # {'a': 0, 'b': 0, 'c': 0}
 
-
 # get - returns the value for a key if it exists in the dictionary, otherwise returns a default value
 print(d.get('a')) # 1
 print(d.get('d', 'default')) # default
